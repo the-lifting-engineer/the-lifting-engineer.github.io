@@ -1,10 +1,37 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>Categories on My New Hugo Site</title>
-    <link>http://example.org/categories/</link>
-    <description>Recent content in Categories on My New Hugo Site</description>
+    <title>Categories on The EE Home</title>
+    <link>https://vincent.engineer/categories/</link>
+    <description>Recent content in Categories on The EE Home</description>
     <generator>Hugo -- gohugo.io</generator>
-    <language>en-us</language><atom:link href="http://example.org/categories/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Mon, 29 Jun 2020 15:42:01 +0700</lastBuildDate><atom:link href="https://vincent.engineer/categories/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Groot</title>
+      <link>https://vincent.engineer/categories/groot/</link>
+      <pubDate>Mon, 29 Jun 2020 15:42:01 +0700</pubDate>
+      
+      <guid>https://vincent.engineer/categories/groot/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>syntax</title>
+      <link>https://vincent.engineer/categories/syntax/</link>
+      <pubDate>Mon, 11 Mar 2019 00:00:00 +0000</pubDate>
+      
+      <guid>https://vincent.engineer/categories/syntax/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>themes</title>
+      <link>https://vincent.engineer/categories/themes/</link>
+      <pubDate>Mon, 11 Mar 2019 00:00:00 +0000</pubDate>
+      
+      <guid>https://vincent.engineer/categories/themes/</guid>
+      <description></description>
+    </item>
+    
   </channel>
 </rss>
