@@ -1,10 +1,12 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>The EE Home</title>
+    <title>Vincent Engineer Projects</title>
     <link>https://vincent.engineer/basic-example/</link>
-    <description>Recent content on The EE Home</description>
+    <description>Recent content on Vincent Engineer Projects</description>
     <generator>Hugo -- gohugo.io</generator>
+    <language>en</language>
+    <copyright>Copyright © 2021, Vincent; all rights reserved.</copyright>
     <lastBuildDate>Tue, 28 May 2019 00:00:00 +0000</lastBuildDate><atom:link href="https://vincent.engineer/basic-example/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title></title>
@@ -23,7 +25,7 @@
       <guid>https://vincent.engineer/basic-example/about/</guid>
       <description>Written in Go, Hugo is an open source static site generator available under the Apache Licence 2.0. Hugo supports TOML, YAML and JSON data file types, Markdown and HTML content files and uses shortcodes to add rich content. Other notable features are taxonomies, multilingual mode, image processing, custom output formats, HTML/CSS/JS minification and support for Sass SCSS workflows.
 Hugo makes use of a variety of open source projects including:
- https://github.</description>
+  https://github.</description>
     </item>
     
   </channel>
