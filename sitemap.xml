@@ -11,7 +11,7 @@
     <loc>https://vincent.engineer/groot/</loc>
     <lastmod>2020-06-29T15:42:01+07:00</lastmod>
   </url><url>
-    <loc>https://vincent.engineer/binary-clock-rev-1.0/</loc>
+    <loc>https://vincent.engineer/binary_clock/</loc>
     <lastmod>2019-05-28T00:00:00+00:00</lastmod>
   </url><url>
     <loc>https://vincent.engineer/blog/am-i-groot/</loc>
@@ -50,7 +50,7 @@
     <loc>https://vincent.engineer/blog/i-am-root/</loc>
     <lastmod>2020-06-29T15:41:45+07:00</lastmod>
   </url><url>
-    <loc>https://vincent.engineer/binary-clock-rev-1.0/archives/</loc>
+    <loc>https://vincent.engineer/binary_clock/archives/</loc>
     <lastmod>2019-05-28T00:00:00+00:00</lastmod>
   </url><url>
     <loc>https://vincent.engineer/tags/css/</loc>
@@ -62,10 +62,10 @@
     <loc>https://vincent.engineer/tags/markdown/</loc>
     <lastmod>2019-03-11T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>https://vincent.engineer/binary-clock-rev-1.0/post/markdown-syntax/</loc>
+    <loc>https://vincent.engineer/binary_clock/post/markdown-syntax/</loc>
     <lastmod>2019-03-11T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>https://vincent.engineer/binary-clock-rev-1.0/post/</loc>
+    <loc>https://vincent.engineer/binary_clock/post/</loc>
     <lastmod>2019-03-11T00:00:00+00:00</lastmod>
   </url><url>
     <loc>https://vincent.engineer/categories/syntax/</loc>
@@ -80,28 +80,28 @@
     <loc>https://vincent.engineer/tags/privacy/</loc>
     <lastmod>2019-03-10T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>https://vincent.engineer/binary-clock-rev-1.0/post/rich-content/</loc>
+    <loc>https://vincent.engineer/binary_clock/post/rich-content/</loc>
     <lastmod>2019-03-10T00:00:00+00:00</lastmod>
   </url><url>
     <loc>https://vincent.engineer/tags/shortcodes/</loc>
     <lastmod>2019-03-10T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>https://vincent.engineer/binary-clock-rev-1.0/post/placeholder-text/</loc>
+    <loc>https://vincent.engineer/binary_clock/post/placeholder-text/</loc>
     <lastmod>2019-03-09T00:00:00+00:00</lastmod>
   </url><url>
     <loc>https://vincent.engineer/tags/text/</loc>
     <lastmod>2019-03-09T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>https://vincent.engineer/binary-clock-rev-1.0/post/math-typesetting/</loc>
+    <loc>https://vincent.engineer/binary_clock/post/math-typesetting/</loc>
     <lastmod>2019-03-08T00:00:00+00:00</lastmod>
   </url><url>
     <loc>https://vincent.engineer/tags/emoji/</loc>
     <lastmod>2019-03-05T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>https://vincent.engineer/binary-clock-rev-1.0/post/emoji-support/</loc>
+    <loc>https://vincent.engineer/binary_clock/post/emoji-support/</loc>
     <lastmod>2019-03-05T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>https://vincent.engineer/binary-clock-rev-1.0/about/</loc>
+    <loc>https://vincent.engineer/binary_clock/about/</loc>
     <lastmod>2019-02-28T00:00:00+00:00</lastmod>
   </url><url>
     <loc>https://vincent.engineer/tags/index/</loc>
