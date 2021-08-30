@@ -84,19 +84,54 @@ Orginally I had just wanted to build an easy Binary Clock but realized I would a
 </ul>
 <p>ESP8266 Versus RTC:
 The pro&rsquo;s and cons of each will be described in this section and the final reasoning why I picked the ESP8266 module (aside from the reasoning given above)</p>
-<p>ESP8266 Pro&rsquo;s						RTC Pro&rsquo;s</p>
-<ul>
-<li>Smaller footprint (standalone)			* Common, used in many projects</li>
-<li>Highly accurate					* Capability to retain time if powered off and moved</li>
-<li>I have a lot of them lying around for some reason</li>
-</ul>
-<p>ESP8266 Cons						RTC Cons</p>
-<ul>
-<li>Limited GPIO pins					* Larger footprint</li>
-<li>Added complexity					* Needs to be used with a microcontroller</li>
-<li>Unfamiliar with it					* Accuracy might be questionable (not a huge concern)</li>
-<li>Requires internet connection to work</li>
-</ul>
+<table>
+<thead>
+<tr>
+<th>ESP8266 Pro&rsquo;s</th>
+<th>RTC Pro&rsquo;s</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>Smaller footprint (standalone)</td>
+<td>Common, used in many projects</td>
+</tr>
+<tr>
+<td>Highly accurate</td>
+<td>Capability to retain time if powered off and moved</td>
+</tr>
+<tr>
+<td>I have a lot of them lying around for some reason</td>
+<td></td>
+</tr>
+</tbody>
+</table>
+<table>
+<thead>
+<tr>
+<th>ESP8266 Cons</th>
+<th>RTC Cons</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>Limited GPIO pins</td>
+<td>Larger footprint</td>
+</tr>
+<tr>
+<td>Added complexity</td>
+<td>Needs to be used with a microcontroller</td>
+</tr>
+<tr>
+<td>Unfamiliar with it</td>
+<td>Accuracy might be questionable (not a huge concern)</td>
+</tr>
+<tr>
+<td>Requires internet connection to work</td>
+<td></td>
+</tr>
+</tbody>
+</table>
 <p>Lessons learned:
 There are a few things I learned doing this project that are worth noting down for future projects
 Space management and component layout:</p>
