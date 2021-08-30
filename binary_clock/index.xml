@@ -24,7 +24,7 @@ Why this project: The Binary Clock is a common engineering project. The reason I
       <pubDate>Sun, 29 Aug 2021 00:00:00 +0000</pubDate>
       
       <guid>https://vincent.engineer/binary_clock/binary_clock_code_rev1_0/</guid>
-      <description>#include &amp;lt;NTPClient.h&amp;gt; #include &amp;lt;ESP8266WiFi.h&amp;gt; #include &amp;lt;WiFiUdp.h&amp;gt;
+      <description>&amp;lsquo;&amp;lsquo;&amp;lsquo;html #include &amp;lt;NTPClient.h&amp;gt; #include &amp;lt;ESP8266WiFi.h&amp;gt; #include &amp;lt;WiFiUdp.h&amp;gt;
 int latchPin1 = D2; int clockPin1 = D0; int dataPin1 = D1;
 int latchPin2 = D5; int clockPin2 = D3; int dataPin2 = D4;
 byte data1 = 0; byte data2 = 0; byte dataArray[60];
