@@ -7,25 +7,30 @@
     <generator>Hugo -- gohugo.io</generator>
     <language>en</language>
     <copyright>Copyright © 2021, Vincent; all rights reserved.</copyright>
-    <lastBuildDate>Tue, 28 May 2019 00:00:00 +0000</lastBuildDate><atom:link href="https://vincent.engineer/binary_clock/index.xml" rel="self" type="application/rss+xml" />
-    <item>
-      <title></title>
-      <link>https://vincent.engineer/binary_clock/archives/</link>
-      <pubDate>Tue, 28 May 2019 00:00:00 +0000</pubDate>
-      
-      <guid>https://vincent.engineer/binary_clock/archives/</guid>
-      <description></description>
-    </item>
-    
+    <lastBuildDate>Sun, 29 Aug 2021 00:00:00 +0000</lastBuildDate><atom:link href="https://vincent.engineer/binary_clock/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>About</title>
       <link>https://vincent.engineer/binary_clock/about/</link>
-      <pubDate>Thu, 28 Feb 2019 00:00:00 +0000</pubDate>
+      <pubDate>Sun, 29 Aug 2021 00:00:00 +0000</pubDate>
       
       <guid>https://vincent.engineer/binary_clock/about/</guid>
-      <description>Written in Go, Hugo is an open source static site generator available under the Apache Licence 2.0. Hugo supports TOML, YAML and JSON data file types, Markdown and HTML content files and uses shortcodes to add rich content. Other notable features are taxonomies, multilingual mode, image processing, custom output formats, HTML/CSS/JS minification and support for Sass SCSS workflows.
-Hugo makes use of a variety of open source projects including:
- https://github.</description>
+      <description>What is a Binary Clock: A Binary Clock is a clock that shows the time as a binary value. For example 12:49 will be displayed as 1100 110001 (it should be noted this is seperating hours and minutes as seperate binary values for the purpose of displaying).
+Why this project: The Binary Clock is a common engineering project. The reason I choose to tackle this project was due to dynamic nature of the project.</description>
+    </item>
+    
+    <item>
+      <title>Binary_Clock_Code_Rev1_0</title>
+      <link>https://vincent.engineer/binary_clock/binary_clock_code_rev1_0/</link>
+      <pubDate>Sun, 29 Aug 2021 00:00:00 +0000</pubDate>
+      
+      <guid>https://vincent.engineer/binary_clock/binary_clock_code_rev1_0/</guid>
+      <description>#include &amp;lt;NTPClient.h&amp;gt; #include &amp;lt;ESP8266WiFi.h&amp;gt; #include &amp;lt;WiFiUdp.h&amp;gt;
+int latchPin1 = D2; int clockPin1 = D0; int dataPin1 = D1;
+int latchPin2 = D5; int clockPin2 = D3; int dataPin2 = D4;
+byte data1 = 0; byte data2 = 0; byte dataArray[60];
+const char *ssid = &amp;ldquo;totally legit wifi&amp;rdquo;; const char *password = &amp;ldquo;goodlife&amp;rdquo;;
+const long utcOffsetInSeconds = -25200;
+// Define NTP Client to get time WiFiUDP ntpUDP; NTPClient timeClient(ntpUDP, &amp;ldquo;pool.ntp.org&amp;rdquo;, utcOffsetInSeconds);</description>
     </item>
     
   </channel>
