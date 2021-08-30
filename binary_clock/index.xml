@@ -14,7 +14,8 @@
       <pubDate>Sun, 29 Aug 2021 00:00:00 +0000</pubDate>
       
       <guid>https://vincent.engineer/binary_clock/about/</guid>
-      <description>What is a Binary Clock: A Binary Clock is a clock that shows the time as a binary value. For example 12:49 will be displayed as 1100 110001 (it should be noted this is seperating hours and minutes as seperate binary values for the purpose of displaying).
+      <description>What is a Binary Clock:
+A Binary Clock is a clock that shows the time as a binary value. For example 12:49 will be displayed as 1100 110001 (it should be noted this is seperating hours and minutes as seperate binary values for the purpose of displaying).
 Why this project:
 The Binary Clock is a common engineering project. The reason I choose to tackle this project was due to dynamic nature of the project.</description>
     </item>

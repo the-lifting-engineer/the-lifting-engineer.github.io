@@ -9,19 +9,19 @@
     <copyright>Copyright © 2021, Vincent; all rights reserved.</copyright><atom:link href="https://vincent.engineer/tags/index/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Posts</title>
-      <link>https://vincent.engineer/binary_clock/post/</link>
+      <link>https://vincent.engineer/binary_clock/archive/</link>
       <pubDate>Mon, 11 Mar 2019 00:00:00 +0000</pubDate>
       
-      <guid>https://vincent.engineer/binary_clock/post/</guid>
+      <guid>https://vincent.engineer/binary_clock/archive/</guid>
       <description></description>
     </item>
     
     <item>
       <title>Posts</title>
-      <link>https://vincent.engineer/binary_clock/archive/post/</link>
+      <link>https://vincent.engineer/binary_clock/archive_/post/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>https://vincent.engineer/binary_clock/archive/post/</guid>
+      <guid>https://vincent.engineer/binary_clock/archive_/post/</guid>
       <description></description>
     </item>
     
