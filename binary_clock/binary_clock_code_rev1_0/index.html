@@ -55,124 +55,201 @@
         </span>
     </header>
     <div class="post-content" itemprop="articleBody">
-        <p>&lsquo;&lsquo;&lsquo;html
-#include &lt;NTPClient.h&gt;
-#include &lt;ESP8266WiFi.h&gt;
-#include &lt;WiFiUdp.h&gt;</p>
-<p>int latchPin1 = D2;
-int clockPin1 = D0;
-int dataPin1 = D1;</p>
-<p>int latchPin2 = D5;
-int clockPin2 = D3;
-int dataPin2 = D4;</p>
-<p>byte data1 = 0;
-byte data2 = 0;
-byte dataArray[60];</p>
-<p>const char *ssid     = &ldquo;totally legit wifi&rdquo;;
-const char *password = &ldquo;goodlife&rdquo;;</p>
-<p>const long utcOffsetInSeconds = -25200;</p>
-<p>// Define NTP Client to get time
-WiFiUDP ntpUDP;
-NTPClient timeClient(ntpUDP, &ldquo;pool.ntp.org&rdquo;, utcOffsetInSeconds);</p>
-<p>void setup(){
-//Shift rego setup</p>
-<p>pinMode(latchPin1, OUTPUT);
-pinMode(clockPin1, OUTPUT);
-pinMode(dataPin1, OUTPUT);
-pinMode(latchPin2, OUTPUT);
-pinMode(clockPin2, OUTPUT);
-pinMode(dataPin2, OUTPUT);</p>
-<p>dataArray[0] = 0x00;</p>
-<p>dataArray[1] = 0x01;</p>
-<p>dataArray[2] = 0x02;</p>
-<p>dataArray[3] = 0x03;</p>
-<p>dataArray[4] = 0x04;</p>
-<p>dataArray[5] = 0x05;</p>
-<p>dataArray[6] = 0x06;</p>
-<p>dataArray[7] = 0x07;</p>
-<p>dataArray[8] = 0x08;</p>
-<p>dataArray[9] = 0x09;</p>
-<p>dataArray[10] = 0x10;</p>
-<p>dataArray[11] = 0x11;</p>
-<p>dataArray[12] = 0x12;</p>
-<p>dataArray[13] = 0x13;</p>
-<p>dataArray[14] = 0x14;</p>
-<p>dataArray[15] = 0x15;</p>
-<p>dataArray[16] = 0x16;</p>
-<p>dataArray[17] = 0x17;</p>
-<p>dataArray[18] = 0x18;</p>
-<p>dataArray[19] = 0x19;</p>
-<p>dataArray[20] = 0x20;</p>
-<p>dataArray[21] = 0x21;</p>
-<p>dataArray[22] = 0x22;</p>
-<p>dataArray[23] = 0x23;</p>
-<p>dataArray[24] = 0x24;</p>
-<p>dataArray[25] = 0x25;</p>
-<p>dataArray[26] = 0x26;</p>
-<p>dataArray[27] = 0x27;</p>
-<p>dataArray[28] = 0x28;</p>
-<p>dataArray[29] = 0x29;</p>
-<p>dataArray[30] = 0x30;</p>
-<p>dataArray[31] = 0x31;</p>
-<p>dataArray[32] = 0x32;</p>
-<p>dataArray[33] = 0x33;</p>
-<p>dataArray[34] = 0x34;</p>
-<p>dataArray[35] = 0x35;</p>
-<p>dataArray[36] = 0x36;</p>
-<p>dataArray[37] = 0x37;</p>
-<p>dataArray[38] = 0x38;</p>
-<p>dataArray[39] = 0x39;</p>
-<p>dataArray[40] = 0x40;</p>
-<p>dataArray[41] = 0x41;</p>
-<p>dataArray[42] = 0x42;</p>
-<p>dataArray[43] = 0x43;</p>
-<p>dataArray[44] = 0x44;</p>
-<p>dataArray[45] = 0x45;</p>
-<p>dataArray[46] = 0x46;</p>
-<p>dataArray[47] = 0x47;</p>
-<p>dataArray[48] = 0x48;</p>
-<p>dataArray[49] = 0x49;</p>
-<p>dataArray[50] = 0x50;</p>
-<p>dataArray[51] = 0x51;</p>
-<p>dataArray[52] = 0x52;</p>
-<p>dataArray[53] = 0x53;</p>
-<p>dataArray[54] = 0x54;</p>
-<p>dataArray[55] = 0x55;</p>
-<p>dataArray[56] = 0x56;</p>
-<p>dataArray[57] = 0x57;</p>
-<p>dataArray[58] = 0x58;</p>
-<p>dataArray[59] = 0x59;
-//wifi setup</p>
-<p>Serial.begin(115200);</p>
-<p>WiFi.begin(ssid, password);</p>
-<p>while ( WiFi.status() != WL_CONNECTED ) {
-delay ( 500 );
-Serial.print ( &ldquo;.&rdquo; );
-}</p>
-<p>timeClient.begin();
-}</p>
-<p>void loop() {</p>
-<p>timeClient.update();</p>
-<p>int hr = timeClient.getHours();
-Serial.print(hr);
-Serial.print(&quot;:&quot;);
-int mins = timeClient.getMinutes();
-Serial.print(mins);
-Serial.print(&quot;:&quot;);
-int sec = timeClient.getSeconds();
-Serial.print(sec);
-Serial.println(&quot; &ldquo;);</p>
-<p>data1 = dataArray[hr];
-data2 = dataArray[mins];</p>
-<p>digitalWrite(latchPin1, LOW);
-shiftOut(dataPin1, clockPin1, MSBFIRST, data1);
-digitalWrite(latchPin1, HIGH);</p>
-<p>digitalWrite(latchPin2, LOW);
-shiftOut(dataPin2, clockPin2, MSBFIRST, data2);
-digitalWrite(latchPin2, HIGH);</p>
-<p>}
-'&rsquo;&rsquo;</p>
+        <div class="highlight"><pre tabindex="0" class="chroma"><code class="language-html" data-lang="html">#include <span class="p">&lt;</span><span class="nt">NTPClient.h</span><span class="p">&gt;</span>
+#include <span class="p">&lt;</span><span class="nt">ESP8266WiFi.h</span><span class="p">&gt;</span>
+#include <span class="p">&lt;</span><span class="nt">WiFiUdp.h</span><span class="p">&gt;</span>
 
+int latchPin1 = D2;
+int clockPin1 = D0;
+int dataPin1 = D1;
+
+int latchPin2 = D5;
+int clockPin2 = D3;
+int dataPin2 = D4;
+
+byte data1 = 0;
+byte data2 = 0;
+byte dataArray[60];
+
+const char *ssid     = &#34;totally legit wifi&#34;;
+const char *password = &#34;goodlife&#34;;
+
+const long utcOffsetInSeconds = -25200;
+
+// Define NTP Client to get time
+WiFiUDP ntpUDP;
+NTPClient timeClient(ntpUDP, &#34;pool.ntp.org&#34;, utcOffsetInSeconds);
+
+void setup(){
+  //Shift rego setup
+
+  pinMode(latchPin1, OUTPUT);
+  pinMode(clockPin1, OUTPUT);
+  pinMode(dataPin1, OUTPUT);
+  pinMode(latchPin2, OUTPUT);
+  pinMode(clockPin2, OUTPUT);
+  pinMode(dataPin2, OUTPUT);
+
+  dataArray[0] = 0x00; 
+  
+  dataArray[1] = 0x01;
+
+  dataArray[2] = 0x02; 
+
+  dataArray[3] = 0x03; 
+
+  dataArray[4] = 0x04; 
+
+  dataArray[5] = 0x05; 
+
+  dataArray[6] = 0x06; 
+  
+  dataArray[7] = 0x07; 
+
+  dataArray[8] = 0x08; 
+
+  dataArray[9] = 0x09; 
+  
+  dataArray[10] = 0x10; 
+  
+  dataArray[11] = 0x11;
+
+  dataArray[12] = 0x12; 
+
+  dataArray[13] = 0x13; 
+
+  dataArray[14] = 0x14; 
+
+  dataArray[15] = 0x15; 
+
+  dataArray[16] = 0x16; 
+  
+  dataArray[17] = 0x17; 
+
+  dataArray[18] = 0x18; 
+
+  dataArray[19] = 0x19;
+
+  dataArray[20] = 0x20; 
+
+  dataArray[21] = 0x21; 
+  
+  dataArray[22] = 0x22; 
+
+  dataArray[23] = 0x23;
+
+  dataArray[24] = 0x24; 
+  
+  dataArray[25] = 0x25;
+
+  dataArray[26] = 0x26; 
+
+  dataArray[27] = 0x27; 
+
+  dataArray[28] = 0x28; 
+
+  dataArray[29] = 0x29; 
+
+  dataArray[30] = 0x30; 
+ 
+  dataArray[31] = 0x31; 
+
+  dataArray[32] = 0x32; 
+
+  dataArray[33] = 0x33; 
+  
+  dataArray[34] = 0x34; 
+  
+  dataArray[35] = 0x35;
+
+  dataArray[36] = 0x36; 
+
+  dataArray[37] = 0x37; 
+
+  dataArray[38] = 0x38; 
+
+  dataArray[39] = 0x39; 
+
+  dataArray[40] = 0x40; 
+  
+  dataArray[41] = 0x41; 
+
+  dataArray[42] = 0x42; 
+
+  dataArray[43] = 0x43;
+
+  dataArray[44] = 0x44; 
+
+  dataArray[45] = 0x45; 
+  
+  dataArray[46] = 0x46; 
+
+  dataArray[47] = 0x47;
+
+  dataArray[48] = 0x48; 
+  
+  dataArray[49] = 0x49; 
+
+  dataArray[50] = 0x50; 
+
+  dataArray[51] = 0x51;
+
+  dataArray[52] = 0x52; 
+
+  dataArray[53] = 0x53; 
+  
+  dataArray[54] = 0x54; 
+
+  dataArray[55] = 0x55;
+
+  dataArray[56] = 0x56; 
+
+  dataArray[57] = 0x57; 
+  
+  dataArray[58] = 0x58; 
+
+  dataArray[59] = 0x59;
+  //wifi setup
+  
+  Serial.begin(115200);
+
+  WiFi.begin(ssid, password);
+
+  while ( WiFi.status() != WL_CONNECTED ) {
+    delay ( 500 );
+    Serial.print ( &#34;.&#34; );
+  }
+
+  timeClient.begin();
+}
+
+void loop() {
+ 
+  timeClient.update();
+  
+  int hr = timeClient.getHours();
+  Serial.print(hr);
+  Serial.print(&#34;:&#34;);
+  int mins = timeClient.getMinutes();
+  Serial.print(mins);
+  Serial.print(&#34;:&#34;);
+  int sec = timeClient.getSeconds();
+  Serial.print(sec);
+  Serial.println(&#34; &#34;);
+
+  data1 = dataArray[hr];
+  data2 = dataArray[mins];
+
+  digitalWrite(latchPin1, LOW);
+  shiftOut(dataPin1, clockPin1, MSBFIRST, data1);
+  digitalWrite(latchPin1, HIGH);
+  
+  digitalWrite(latchPin2, LOW);
+  shiftOut(dataPin2, clockPin2, MSBFIRST, data2);
+  digitalWrite(latchPin2, HIGH);
+  
+}
+</code></pre></div>
     </div>
 </article>
 <div class="pagination">
