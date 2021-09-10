@@ -11,7 +11,7 @@
     <meta property="og:url" content="https://vincent.engineer/binary_clock/about/">
     <meta property="og:description" content="Binary Clock ">
     <meta property="og:site_name" content="Vincent Engineer Projects">
-    <link rel="stylesheet" href="https://vincent.engineer/css/main.min.d8029ac6b4d75a2b3a356c73b20861a6ab0899c888e15fe25c8e0600a0d09c2e.css" integrity="sha256-2AKaxrTXWis6NWxzsghhpqsImciI4V/iXI4GAKDQnC4=">
+    <link rel="stylesheet" href="https://vincent.engineer/css/main.min.2e3d38878275e4422d9b595f44425daada0aff3e0dfc52f142c938707a878105.css" integrity="sha256-Lj04h4J15EItm1lfREJdqtoK/z4N/FLxQsk4cHqHgQU=">
     <meta name="generator" content="Hugo 0.87.0" />
     <script type="module" src="https://unpkg.com/ionicons@5.1.2/dist/ionicons/ionicons.esm.js"></script>
     <script nomodule="" src="https://unpkg.com/ionicons@5.1.2/dist/ionicons/ionicons.js"></script>
@@ -62,13 +62,13 @@
 A Binary Clock can be made as simple as by hard coding the values or adding additional layers such as using a RTC (Real Time Clock).</p>
 <p>Process of this project:</p>
 <p>For my particular project I wanted to incorporate an ESP8266 module for the primary function of decreasing the footprint used by components, with some added challenges for me to work around.
-The main challenge with the ESP8266 modules I used are two fold, first the plague of many electrical engineering projects: Limited GPIO pins. The second being that I had never previously worked with an ESP8266 module.<br>
-I used existing code from examples to get the time, the using a serial command to display the values the ESP8266 was receiving. At this point I realized it was running based on UTC time and I adjusted accordingly for my time zone.<br>
+The main challenge with the ESP8266 modules I used are two fold, first the plague of many electrical engineering projects: Limited GPIO pins. The second being that I had never previously worked with an ESP8266 module.
+I used existing code from examples to get the time, the using a serial command to display the values the ESP8266 was receiving. At this point I realized it was running based on UTC time and I adjusted accordingly for my time zone.
 This first step resolved some of my issues with familiarity with the module but still left me with the challenge of getting enough GPIO pins to display a 24 hour clock sans seconds.
 This was tackled by using 74HC595N bit shift registers, allowing me to effectivly turn 3 GPIO pins into 8 outputs per chip. My design uses a total of 13 LED&rsquo;s so two registers were used to get the desired amount of outputs.
-One register controlled hours the other controlled minutes, this was done for ease of coding. Eventhough I could have used more inputs on the shift register to reduce useage on the other it made no sense since overal foot print would not change.<br>
-Using the shift registers allowed me to easily incorporate arrays into my code and making it look slightly more professional.<br>
-Aside from LEDS the last remaining components I used was 220 Ohm resistors to drop the current and prevent the LED&rsquo;s from living a short but bright life.<br>
+One register controlled hours the other controlled minutes, this was done for ease of coding. Eventhough I could have used more inputs on the shift register to reduce useage on the other it made no sense since overal foot print would not change.
+Using the shift registers allowed me to easily incorporate arrays into my code and making it look slightly more professional.
+Aside from LEDS the last remaining components I used was 220 Ohm resistors to drop the current and prevent the LED&rsquo;s from living a short but bright life.
 I added these resistors on the ground side of the LED&rsquo;s, due them acting only to limit current the positioning is not crucial and it helped with the soldering of the LED side of the board.</p>
 <p>Thoughts I had during this project:</p>
 <ul>
@@ -169,8 +169,7 @@ I might revisit this option just for fun and update this page if I build it, it 
 The code will also be available on my webpage in the &ldquo;Binary_Clock_Code_RevX_X&rdquo; File.
 Any revisisions or older versions will be moved into the &ldquo;Archive&rdquo; Folder where the code will be labeled by revision VX.X</p>
 <p>-The-Lifting-Engineer</p>
-<p><img src="./finished_clock.jpg" alt="The Finished Product"></p>
-<p><img src="https://raw.github.com/the-lifting-engineer/the-lifting-engineer.github.io/blob/master/binary_clock/finished_clock.jpg" alt="The Finished Product"></p>
+<p><img src="../finished_clock.jpg" alt="The Finished Product"></p>
 
     </div>
 </article>
