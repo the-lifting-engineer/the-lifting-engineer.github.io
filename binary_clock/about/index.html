@@ -58,7 +58,7 @@
         <p>What is a Binary Clock:</p>
 <p>A Binary Clock is a clock that shows the time as a binary value. For example 12:49 will be displayed as 1100 110001 (it should be noted this is seperating hours and minutes as seperate binary values for the purpose of displaying).</p>
 <p>Why this project:</p>
-<p>The Binary Clock is a common engineering project. The reason I choose to tackle this project was due to dynamic nature of the project. 
+<p>The Binary Clock is a common engineering project. The reason I choose to tackle this project was due to dynamic nature of the project.
 A Binary Clock can be made as simple as by hard coding the values or adding additional layers such as using a RTC (Real Time Clock).</p>
 <p>Process of this project:</p>
 <p>For my particular project I wanted to incorporate an ESP8266 module for the primary function of decreasing the footprint used by components, with some added challenges for me to work around.
@@ -74,7 +74,7 @@ I added these resistors on the ground side of the LED&rsquo;s, due them acting o
 <ul>
 <li>
 <p>Why bother with Shift registers? I can just use two EDP8266 modules I have plenty of them.
-The main reason I thought about this is because I have limited exposures to using Shift Registers and figured loading two ESP8266 modules with software (one would control hours and the other would control minutes) would be an easy copout. 
+The main reason I thought about this is because I have limited exposures to using Shift Registers and figured loading two ESP8266 modules with software (one would control hours and the other would control minutes) would be an easy copout.
 Since they both would get time using WIFI I wasn&rsquo;t concerned about drift. I ended up deciding against this due to the increase in the footprint as well as it being an easy out rather than trying to find and work towards a more effective solution.</p>
 </li>
 <li>
@@ -161,8 +161,8 @@ I did briefly consider adding a power supply to the setup but due to the nature 
 <p>Although I loved the challenge I provided myself with this project and the future Rev2.0 additions I will be implementing I also realize I could have gone a lot simpeler with this setup.
 First off is return to form with an RTC, I would have saved myself a good amount of time with coding and had a lot more community support to lean on. Thats not to say that the ESP8266 does not have support.
 It was just a bit more of a learning curve.
-I also think that this project could be moved to an even smaller foot print using an RTC, Atmega328P and an HT16K33 with a 8x8 LED matrix attached to it. The LED&rsquo;s take up a lof of real estate and having them all be on 
-an 8x8 matrix would save a lot of space. (Plus no need for resistors) 
+I also think that this project could be moved to an even smaller foot print using an RTC, Atmega328P and an HT16K33 with a 8x8 LED matrix attached to it. The LED&rsquo;s take up a lof of real estate and having them all be on
+an 8x8 matrix would save a lot of space. (Plus no need for resistors)
 I might revisit this option just for fun and update this page if I build it, it likely won&rsquo;t get a full write up as it is just being done as proof of concept (this is silly I know it can be done but ya know self satisifaction is important)</p>
 <p>Images of the project along with the code will be uploaded 
 <a href="https://github.com/the-lifting-engineer/Binary_Clock/tree/main" target="_blank" rel="nofollow noreferrer noopener">here</a>
