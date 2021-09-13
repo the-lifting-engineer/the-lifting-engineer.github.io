@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Vincent Engineer Projects</title>
+    <link>https://vincent.engineer/visor/</link>
+    <description>Recent content on Vincent Engineer Projects</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en</language>
+    <copyright>Copyright © 2021, Vincent; all rights reserved.</copyright>
+    <lastBuildDate>Sun, 12 Sep 2021 00:00:00 +0000</lastBuildDate><atom:link href="https://vincent.engineer/visor/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>About</title>
+      <link>https://vincent.engineer/visor/about/</link>
+      <pubDate>Sun, 12 Sep 2021 00:00:00 +0000</pubDate>
+      
+      <guid>https://vincent.engineer/visor/about/</guid>
+      <description>What is a VISOR:
+VISOR was my Senior Design project, it was completed by myself and a 3 other engineers. This will be a shorter intro due to all of the information relating to this project being available online here
+My personal role within this project was mostly related to the sensor input from the motorcycle to the helmet, designing the PCB layout and running simulations to verify our design would work as intended.</description>
+    </item>
+    
+  </channel>
+</rss>

@@ -6,25 +6,6 @@
     <description>Recent content in Categories on Vincent Engineer Projects</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en</language>
-    <copyright>Copyright © 2021, Vincent; all rights reserved.</copyright>
-    <lastBuildDate>Mon, 11 Mar 2019 00:00:00 +0000</lastBuildDate><atom:link href="https://vincent.engineer/categories/index.xml" rel="self" type="application/rss+xml" />
-    <item>
-      <title>syntax</title>
-      <link>https://vincent.engineer/categories/syntax/</link>
-      <pubDate>Mon, 11 Mar 2019 00:00:00 +0000</pubDate>
-      
-      <guid>https://vincent.engineer/categories/syntax/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>themes</title>
-      <link>https://vincent.engineer/categories/themes/</link>
-      <pubDate>Mon, 11 Mar 2019 00:00:00 +0000</pubDate>
-      
-      <guid>https://vincent.engineer/categories/themes/</guid>
-      <description></description>
-    </item>
-    
+    <copyright>Copyright © 2021, Vincent; all rights reserved.</copyright><atom:link href="https://vincent.engineer/categories/index.xml" rel="self" type="application/rss+xml" />
   </channel>
 </rss>

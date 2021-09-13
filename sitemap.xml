@@ -3,10 +3,16 @@
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
     <loc>https://vincent.engineer/</loc>
-    <lastmod>2021-08-29T00:00:00+00:00</lastmod>
+    <lastmod>2021-09-12T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://vincent.engineer/visor/</loc>
+    <lastmod>2021-09-12T00:00:00+00:00</lastmod>
   </url><url>
     <loc>https://vincent.engineer/binary_clock/</loc>
     <lastmod>2021-08-29T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://vincent.engineer/visor/about/</loc>
+    <lastmod>2021-09-12T00:00:00+00:00</lastmod>
   </url><url>
     <loc>https://vincent.engineer/binary_clock/about/</loc>
     <lastmod>2021-08-29T00:00:00+00:00</lastmod>
@@ -18,59 +24,7 @@
     <lastmod>2021-08-20T00:00:00+00:00</lastmod>
   </url><url>
     <loc>https://vincent.engineer/categories/</loc>
-    <lastmod>2019-03-11T00:00:00+00:00</lastmod>
-  </url><url>
-    <loc>https://vincent.engineer/tags/css/</loc>
-    <lastmod>2019-03-11T00:00:00+00:00</lastmod>
-  </url><url>
-    <loc>https://vincent.engineer/tags/html/</loc>
-    <lastmod>2019-03-11T00:00:00+00:00</lastmod>
-  </url><url>
-    <loc>https://vincent.engineer/tags/markdown/</loc>
-    <lastmod>2019-03-11T00:00:00+00:00</lastmod>
-  </url><url>
-    <loc>https://vincent.engineer/binary_clock/archive/markdown-syntax/</loc>
-    <lastmod>2019-03-11T00:00:00+00:00</lastmod>
-  </url><url>
-    <loc>https://vincent.engineer/binary_clock/archive/</loc>
-    <lastmod>2019-03-11T00:00:00+00:00</lastmod>
-  </url><url>
-    <loc>https://vincent.engineer/categories/syntax/</loc>
-    <lastmod>2019-03-11T00:00:00+00:00</lastmod>
   </url><url>
     <loc>https://vincent.engineer/tags/</loc>
-    <lastmod>2019-03-11T00:00:00+00:00</lastmod>
-  </url><url>
-    <loc>https://vincent.engineer/tags/themes/</loc>
-    <lastmod>2019-03-11T00:00:00+00:00</lastmod>
-  </url><url>
-    <loc>https://vincent.engineer/categories/themes/</loc>
-    <lastmod>2019-03-11T00:00:00+00:00</lastmod>
-  </url><url>
-    <loc>https://vincent.engineer/tags/privacy/</loc>
-    <lastmod>2019-03-10T00:00:00+00:00</lastmod>
-  </url><url>
-    <loc>https://vincent.engineer/binary_clock/archive/rich-content/</loc>
-    <lastmod>2019-03-10T00:00:00+00:00</lastmod>
-  </url><url>
-    <loc>https://vincent.engineer/tags/shortcodes/</loc>
-    <lastmod>2019-03-10T00:00:00+00:00</lastmod>
-  </url><url>
-    <loc>https://vincent.engineer/binary_clock/archive/placeholder-text/</loc>
-    <lastmod>2019-03-09T00:00:00+00:00</lastmod>
-  </url><url>
-    <loc>https://vincent.engineer/tags/text/</loc>
-    <lastmod>2019-03-09T00:00:00+00:00</lastmod>
-  </url><url>
-    <loc>https://vincent.engineer/binary_clock/archive/math-typesetting/</loc>
-    <lastmod>2019-03-08T00:00:00+00:00</lastmod>
-  </url><url>
-    <loc>https://vincent.engineer/tags/emoji/</loc>
-    <lastmod>2019-03-05T00:00:00+00:00</lastmod>
-  </url><url>
-    <loc>https://vincent.engineer/binary_clock/archive/emoji-support/</loc>
-    <lastmod>2019-03-05T00:00:00+00:00</lastmod>
-  </url><url>
-    <loc>https://vincent.engineer/tags/index/</loc>
   </url>
 </urlset>
