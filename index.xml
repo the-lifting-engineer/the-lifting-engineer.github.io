@@ -7,18 +7,7 @@
     <generator>Hugo -- gohugo.io</generator>
     <language>en</language>
     <copyright>Copyright © 2021, Vincent; all rights reserved.</copyright>
-    <lastBuildDate>Sun, 12 Sep 2021 00:00:00 +0000</lastBuildDate><atom:link href="https://vincent.engineer/index.xml" rel="self" type="application/rss+xml" />
-    <item>
-      <title>About</title>
-      <link>https://vincent.engineer/visor/about/</link>
-      <pubDate>Sun, 12 Sep 2021 00:00:00 +0000</pubDate>
-      
-      <guid>https://vincent.engineer/visor/about/</guid>
-      <description>What is a VISOR:
-VISOR was my Senior Design project, it was completed by myself and a 3 other engineers. This will be a shorter intro due to all of the information relating to this project being available online here
-My personal role within this project was mostly related to the sensor input from the motorcycle to the helmet, designing the PCB layout and running simulations to verify our design would work as intended.</description>
-    </item>
-    
+    <lastBuildDate>Sun, 29 Aug 2021 00:00:00 +0000</lastBuildDate><atom:link href="https://vincent.engineer/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>About</title>
       <link>https://vincent.engineer/binary_clock/about/</link>
@@ -50,6 +39,17 @@ The Binary Clock is a common engineering project. The reason I choose to tackle 
 Although I tend to work under different aliasses depending on what I am doing :) (In this case everything links back to my github one which is The-Lifting-Engineer)
 I&amp;rsquo;m an Electrical Engineer, Tinkerer, Racer and absolute nervous wreck 9 times out of 10.
 This website is a museum/monument to my projects. (I&amp;rsquo;ve been told the corporate/professional word is portifolio) I will also be using this as a reflection point to see areas I can improve up on with each new project.</description>
+    </item>
+    
+    <item>
+      <title>About</title>
+      <link>https://vincent.engineer/visor/about/</link>
+      <pubDate>Sun, 12 Aug 2018 00:00:00 +0000</pubDate>
+      
+      <guid>https://vincent.engineer/visor/about/</guid>
+      <description>What is a VISOR:
+VISOR was my Senior Design project, it was completed by myself and a 3 other engineers. This will be a shorter intro due to all of the information relating to this project being available online here
+My personal role within this project was mostly related to the sensor input from the motorcycle to the helmet, designing the PCB layout and running simulations to verify our design would work as intended.</description>
     </item>
     
   </channel>
