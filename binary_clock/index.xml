@@ -7,7 +7,18 @@
     <generator>Hugo -- gohugo.io</generator>
     <language>en</language>
     <copyright>Copyright © 2021, Vincent; all rights reserved.</copyright>
-    <lastBuildDate>Sun, 29 Aug 2021 00:00:00 +0000</lastBuildDate><atom:link href="https://vincent.engineer/binary_clock/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Sun, 19 Sep 2021 00:00:00 +0000</lastBuildDate><atom:link href="https://vincent.engineer/binary_clock/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Binary_Clock_PCB</title>
+      <link>https://vincent.engineer/binary_clock/binary_clock_pcb/</link>
+      <pubDate>Sun, 19 Sep 2021 00:00:00 +0000</pubDate>
+      
+      <guid>https://vincent.engineer/binary_clock/binary_clock_pcb/</guid>
+      <description>The PCB:
+This schematic was created using Eagle. It is a functional but non-optimized design. Feel free to reach out for a copy of the Eagle Schematic and Board design.
+-The-Lifting-Engineer</description>
+    </item>
+    
     <item>
       <title>About</title>
       <link>https://vincent.engineer/binary_clock/about/</link>
