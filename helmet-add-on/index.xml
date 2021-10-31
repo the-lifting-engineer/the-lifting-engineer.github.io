@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Vincent Engineer Projects</title>
+    <link>https://vincent.engineer/helmet-add-on/</link>
+    <description>Recent content on Vincent Engineer Projects</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en</language>
+    <copyright>Copyright © 2021, Vincent; all rights reserved.</copyright>
+    <lastBuildDate>Sun, 12 Aug 2018 00:00:00 +0000</lastBuildDate><atom:link href="https://vincent.engineer/helmet-add-on/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>About</title>
+      <link>https://vincent.engineer/helmet-add-on/about/</link>
+      <pubDate>Sun, 12 Aug 2018 00:00:00 +0000</pubDate>
+      
+      <guid>https://vincent.engineer/helmet-add-on/about/</guid>
+      <description>What is the Helmet Add-On:
+The Helmet Add-On was my design for the 2015 Brains Awards competition. This is an international engineering competition held in Netherlands. I had orginally entered the competition as a joke submitting my papers about a week before the deadline. And much to my suprise I heard that they had accepted my papers and I was a top 20 finalist. I was expected to present my idea about a month or two later.</description>
+    </item>
+    
+  </channel>
+</rss>
