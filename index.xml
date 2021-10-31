@@ -7,7 +7,18 @@
     <generator>Hugo -- gohugo.io</generator>
     <language>en</language>
     <copyright>Copyright © 2021, Vincent; all rights reserved.</copyright>
-    <lastBuildDate>Sun, 19 Sep 2021 00:00:00 +0000</lastBuildDate><atom:link href="https://vincent.engineer/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Sat, 30 Oct 2021 00:00:00 +0000</lastBuildDate><atom:link href="https://vincent.engineer/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>About</title>
+      <link>https://vincent.engineer/home_security_system/about/</link>
+      <pubDate>Sat, 30 Oct 2021 00:00:00 +0000</pubDate>
+      
+      <guid>https://vincent.engineer/home_security_system/about/</guid>
+      <description>Why build when you can buy:
+I take my privacy very serious, so why should I trust a major firm like Amazon or an obsecure firm like Yi to monitor my house when I know I can build my own system. (I would say and do it better but we all know that is a lie)
+Additionally it should provide a fun challenge and open myself up more to IOT and different protocols such as UDP/TCP and SMTP.</description>
+    </item>
+    
     <item>
       <title>Binary_Clock_PCB</title>
       <link>https://vincent.engineer/binary_clock/binary_clock_pcb/</link>
@@ -54,27 +65,6 @@ This website is a museum/monument to my projects. (I&amp;rsquo;ve been told the 
     
     <item>
       <title>About</title>
-      <link>https://vincent.engineer/helmet-add-on/about/</link>
-      <pubDate>Sun, 12 Aug 2018 00:00:00 +0000</pubDate>
-      
-      <guid>https://vincent.engineer/helmet-add-on/about/</guid>
-      <description>What is the Helmet Add-On:
-The Helmet Add-On was my design for the 2015 Brains Awards competition. This is an international engineering competition held in Netherlands. I had orginally entered the competition as a joke submitting my papers about a week before the deadline. And much to my suprise I heard that they had accepted my papers and I was a top 20 finalist. I was expected to present my idea about a month or two later.</description>
-    </item>
-    
-    <item>
-      <title>About</title>
-      <link>https://vincent.engineer/home_security_system/about/</link>
-      <pubDate>Sun, 12 Aug 2018 00:00:00 +0000</pubDate>
-      
-      <guid>https://vincent.engineer/home_security_system/about/</guid>
-      <description>Why build when you can buy:
-I take my privacy very serious, so why should I trust a major firm like Amazon or an obsecure firm like Yi to monitor my house when I know I can build my own system. (I would say and do it better but we all know that is a lie)
-Additionally it should provide a fun challenge and open myself up more to IOT and different protocols such as UDP/TCP and SMTP.</description>
-    </item>
-    
-    <item>
-      <title>About</title>
       <link>https://vincent.engineer/visor/about/</link>
       <pubDate>Sun, 12 Aug 2018 00:00:00 +0000</pubDate>
       
@@ -82,6 +72,16 @@ Additionally it should provide a fun challenge and open myself up more to IOT an
       <description>What is a VISOR:
 VISOR was my Senior Design project, it was completed by myself and a 3 other engineers. This will be a shorter intro due to all of the information relating to this project being available online here
 My personal role within this project was mostly related to the sensor input from the motorcycle to the helmet, designing the PCB layout and running simulations to verify our design would work as intended.</description>
+    </item>
+    
+    <item>
+      <title>About</title>
+      <link>https://vincent.engineer/helmet-add-on/about/</link>
+      <pubDate>Sun, 10 May 2015 00:00:00 +0000</pubDate>
+      
+      <guid>https://vincent.engineer/helmet-add-on/about/</guid>
+      <description>What is the Helmet Add-On:
+The Helmet Add-On was my design for the 2015 Brains Awards competition. This is an international engineering competition held in Netherlands. I had orginally entered the competition as a joke submitting my papers about a week before the deadline. And much to my suprise I heard that they had accepted my papers and I was a top 20 finalist. I was expected to present my idea about a month or two later.</description>
     </item>
     
   </channel>
